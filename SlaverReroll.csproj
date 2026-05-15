@@ -1,0 +1,61 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net461</TargetFramework>
+    <Nullable>enable</Nullable>
+    <LangVersion>latest</LangVersion>
+    <AssemblyName>SlaverReroll</AssemblyName>
+    <RootNamespace>SlaverReroll</RootNamespace>
+
+    <!-- ビルド後に Package フォルダへ自動コピー -->
+    <ElinPath>C:\Program Files (x86)\Steam\steamapps\common\Elin</ElinPath>
+    <OutputPath>$(ElinPath)\Package\SlaverReroll\BepInEx\plugins\</OutputPath>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <CopyLocalLockFileAssemblies>false</CopyLocalLockFileAssemblies>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- BepInEx -->
+    <Reference Include="BepInEx.Core">
+      <HintPath>$(ElinPath)\BepInEx\core\BepInEx.Core.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="BepInEx.Unity">
+      <HintPath>$(ElinPath)\BepInEx\core\BepInEx.Unity.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="0Harmony">
+      <HintPath>$(ElinPath)\BepInEx\core\0Harmony.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+
+    <!-- Elin ゲーム本体 -->
+    <Reference Include="Elin">
+      <HintPath>$(ElinPath)\Elin_Data\Managed\Elin.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="Plugins.UI">
+      <HintPath>$(ElinPath)\Elin_Data\Managed\Plugins.UI.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="Plugins.BaseCore">
+      <HintPath>$(ElinPath)\Elin_Data\Managed\Plugins.BaseCore.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+
+    <!-- Unity -->
+    <Reference Include="UnityEngine">
+      <HintPath>$(ElinPath)\Elin_Data\Managed\UnityEngine.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>$(ElinPath)\Elin_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>$(ElinPath)\Elin_Data\Managed\UnityEngine.UI.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+  </ItemGroup>
+
+</Project>
