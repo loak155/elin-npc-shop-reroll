@@ -14,7 +14,7 @@
 
 [h2]機能[/h2]
 [list]
-[*]奴隷商人・調教師などのNPCのウィンドウに再入荷ボタンが追加されます。
+[*]奴隷商人・調教師などのNPCのウィンドウに再入荷ボタンが追加されます（ソートボタンの下）。
 [*]影響力を 1 消費して、その場でラインナップを更新できます。
 [*]影響力が不足している場合は再入荷できません。
 [/list]
@@ -30,7 +30,7 @@ Adds a restock button to NPCs that normally do not support influence-based resto
 
 [h2]Features[/h2]
 [list]
-[*]A restock button is added to the slave trader's, animal tamer's, and similar NPCs' windows.
+[*]A restock button is added below the sort button in the slave trader's, animal tamer's, and similar NPCs' windows.
 [*]Spend 1 Influence to immediately refresh the lineup.
 [*]Restock is unavailable when Influence is insufficient.
 [/list]
