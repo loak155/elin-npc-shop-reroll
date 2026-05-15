@@ -2,7 +2,7 @@ using BepInEx;
 using BepInEx.Logging;
 using HarmonyLib;
 
-namespace SlaverReroll
+namespace NpcShopReroll
 {
     [BepInPlugin(PluginInfo.GUID, PluginInfo.Name, PluginInfo.Version)]
     public class Plugin : BaseUnityPlugin

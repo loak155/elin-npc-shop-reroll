@@ -1,6 +1,6 @@
 using HarmonyLib;
 
-namespace SlaverReroll
+namespace NpcShopReroll
 {
     [HarmonyPatch(typeof(BaseListPeople), "OnRefreshMenu")]
     static class Patch_BaseListPeople_OnRefreshMenu

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package>
-  <title>Slaver Reroll with Influence</title>
-  <id>slaver_reroll</id>
+  <title>NPC Shop Reroll with Influence</title>
+  <id>npc_shop_reroll</id>
   <author>loak155</author>
   <version>0.23.0</version>
   <loadPriority>0</loadPriority>
@@ -10,13 +10,13 @@
     <tag>QualityOfLife</tag>
   </tags>
   <description>
-奴隷商人に、影響力（1）を消費してラインナップを即座にリロールする機能を追加します。
+通常は影響力での再入荷に対応していない奴隷商人・調教師などのNPCに、影響力を消費してラインナップを即座に再入荷する機能を追加します。
 
 [h2]機能[/h2]
 [list]
-[*]奴隷商人のウィンドウにリロールボタンが追加されます。
+[*]奴隷商人・調教師などのNPCのウィンドウに再入荷ボタンが追加されます。
 [*]影響力を 1 消費して、その場でラインナップを更新できます。
-[*]影響力が不足している場合はリロールできません。
+[*]影響力が不足している場合は再入荷できません。
 [/list]
 
 [h2]注意[/h2]
@@ -26,13 +26,13 @@
 
 [hr][/hr]
 
-Adds the ability to reroll the slave trader's inventory by spending 1 Influence.
+Adds a restock button to NPCs that normally do not support influence-based restocking, such as the slave trader and animal tamer, allowing you to immediately refresh their lineup by spending Influence.
 
 [h2]Features[/h2]
 [list]
-[*]A reroll button is added to the slave trader's window.
+[*]A restock button is added to the slave trader's, animal tamer's, and similar NPCs' windows.
 [*]Spend 1 Influence to immediately refresh the lineup.
-[*]Reroll is unavailable when Influence is insufficient.
+[*]Restock is unavailable when Influence is insufficient.
 [/list]
 
 [h2]Notes[/h2]

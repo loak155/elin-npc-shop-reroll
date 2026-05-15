@@ -4,12 +4,12 @@
     <TargetFramework>net461</TargetFramework>
     <Nullable>enable</Nullable>
     <LangVersion>latest</LangVersion>
-    <AssemblyName>SlaverReroll</AssemblyName>
-    <RootNamespace>SlaverReroll</RootNamespace>
+    <AssemblyName>NpcShopReroll</AssemblyName>
+    <RootNamespace>NpcShopReroll</RootNamespace>
 
     <!-- ビルド後に Package フォルダへ自動コピー -->
     <ElinPath>C:\Program Files (x86)\Steam\steamapps\common\Elin</ElinPath>
-    <OutputPath>$(ElinPath)\Package\SlaverReroll\BepInEx\plugins\</OutputPath>
+    <OutputPath>$(ElinPath)\Package\NpcShopReroll\BepInEx\plugins\</OutputPath>
     <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
     <CopyLocalLockFileAssemblies>false</CopyLocalLockFileAssemblies>
   </PropertyGroup>
