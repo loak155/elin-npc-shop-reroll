@@ -31,7 +31,7 @@ namespace SlaverReroll
 
             if (zone.influence < 1)
             {
-                Msg.Say("notEnough");
+                Msg.Say(Lang.isJP ? "影響力が足りない。" : "Not enough Influence.");
                 return;
             }
 
