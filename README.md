@@ -11,7 +11,7 @@
 
 ## インストール
 
-1. [Steam Workshop]() からサブスクライブします
+1. [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3726293987) からサブスクライブします
 2. ゲームを起動するとMODが自動的にロードされます
 
 ## ビルド方法
