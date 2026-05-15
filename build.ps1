@@ -1,7 +1,7 @@
 # build.ps1 - Build and deploy mod files
 
 $ElinPath    = "C:\Program Files (x86)\Steam\steamapps\common\Elin"
-$PackageName = "SlaverReroll"
+$PackageName = "NpcShopReroll"
 $PackageDest = "$ElinPath\Package\$PackageName"
 
 Write-Host "=== $PackageName Build Script ===" -ForegroundColor Cyan
