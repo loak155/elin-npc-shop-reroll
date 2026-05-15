@@ -6,8 +6,8 @@
   <version>0.23.0</version>
   <loadPriority>0</loadPriority>
   <tags>
-    <tag>Gameplay</tag>
-    <tag>QualityOfLife</tag>
+    <tag>ゲームプレイ: 便利機能</tag>
+    <tag>QoL</tag>
   </tags>
   <description>
 通常は影響力での再入荷に対応していない奴隷商人・調教師などのNPCに、影響力を消費してラインナップを即座に再入荷する機能を追加します。
